@@ -1,0 +1,22 @@
+{
+  "name": "billow-app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start":"node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "body-parser": "^2.2.0",
+    "connect-sqlite3": "^0.9.16",
+    "express": "^5.1.0",
+    "express-fileupload": "^1.5.2",
+    "express-session": "^1.18.2",
+    "sqlite3": "^5.1.7",
+    "tesseract.js": "^6.0.1"
+  }
+}

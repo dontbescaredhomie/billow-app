@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+  <meta charset="UTF-8">
+  <title>Billow - Mina kvitton</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Mina kvitton</h1>
+  <button onclick="logout()">Logga ut</button>
+
+  <section>
+    <h2>Ladda upp kvitto</h2>
+    <input type="file" id="receiptFile" accept="image/*">
+    <button onclick="uploadReceipt()">Ladda upp</button>
+    <p id="uploadStatus"></p>
+  </section>
+
+  <section>
+    <h2>Sök kvitton</h2>
+    <input type="text" id="searchQuery" placeholder="Skriv några ord...">
+    <button onclick="searchReceipts()">Sök</button>
+  </section>
+
+  <section>
+    <h2>Alla kvitton</h2>
+    <button onclick="getAllReceipts()">Visa alla</button>
+    <ul id="results"></ul>
+  </section>
+
+  <script src="app.js"></script>
+</body>
+</html>
